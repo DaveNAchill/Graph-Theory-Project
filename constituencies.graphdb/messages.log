@@ -571,3 +571,18 @@ Storage files: (filename : modification date - size)
 2016-03-22 14:32:18.986+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
 2016-03-22 14:32:20.271+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
 2016-03-22 14:32:21.932+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2016-03-22 15:32:18.289+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 210ms.
+2016-03-22 17:32:19.100+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 299ms.
+2016-03-22 18:59:28.195+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2016-03-22 18:59:28.195+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now unavailable
+2016-03-22 18:59:28.254+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting check pointing...
+2016-03-22 18:59:28.254+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting store flush...
+2016-03-22 18:59:28.264+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Store flush completed
+2016-03-22 18:59:28.264+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Starting appending check point entry into the tx log...
+2016-03-22 18:59:28.340+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Appending check point entry into the tx log completed
+2016-03-22 18:59:28.341+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1]:  Check pointing completed
+2016-03-22 18:59:28.341+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-03-22 18:59:28.341+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-03-22 18:59:29.972+0000 INFO  [o.n.k.NeoStoreDataSource] NeoStores closed
+2016-03-22 18:59:29.972+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-03-22 18:59:29.972+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
