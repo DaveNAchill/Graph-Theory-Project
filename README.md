@@ -2,7 +2,8 @@
 ###### David Needham, G00263842
 
 ## Introduction
-Give a summary here of what your project is about.
+This is a Neo4j Graph of the General Election 2016 in Ireland.
+This graph shows the differnt relationships between the candidates.
 
 ## Database
 Explain how you created your database, and how information is represented in it.
