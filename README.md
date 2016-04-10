@@ -6,7 +6,8 @@ This is a Neo4j Graph of the General Election 2016 in Ireland.
 This graph shows the differnt relationships between the candidates.
 
 ## Database
-Explain how you created your database, and how information is represented in it.
+Used the following lines of code to create the nodes for Candidate, Party and Constituency.
+
 
 ## Queries
 Summarise your three queries here.
