@@ -1,0 +1,43 @@
+CREATE(c:Constituency{name:'Louth'});
+CREATE(c:Constituency{name:'Cork East'});
+CREATE(c:Constituency{name:'Waterford'});
+CREATE(c:Constituency{name:'Dublin Mid-West'});
+CREATE(c:Constituency{name:'Tipperary'});
+CREATE(c:Constituency{name:'Dublin Bay South'});
+CREATE(c:Constituency{name:'Dublin South-Central'});
+CREATE(c:Constituency{name:'Carlow-Kilkenny'});
+CREATE(c:Constituency{name:'Dun Laoghaire'});
+CREATE(c:Constituency{name:'Longford-Westmeath'});
+CREATE(c:Constituency{name:'Cork East'});
+CREATE(c:Constituency{name:'Cork North-Central'});
+CREATE(c:Constituency{name:'Wicklow'});
+CREATE(c:Constituency{name:'Kildare North'});
+CREATE(c:Constituency{name:'Limerick City'});
+CREATE(c:Constituency{name:'Cork South-Central '});
+CREATE(c:Constituency{name:'Meath East'});
+CREATE(c:Constituency{name:'Offaly'});
+CREATE(c:Constituency{name:'Kerry'});
+CREATE(c:Constituency{name:'Sligo-Leitrim'});
+CREATE(c:Constituency{name:'Clare'});
+CREATE(c:Constituency{name:'Dublin Bay North'});
+CREATE(c:Constituency{name:'Wexford'});
+CREATE(c:Constituency{name:'Mayo'});
+CREATE(c:Constituency{name:'Galway West'});
+CREATE(c:Constituency{name:'Dublin Fingal'});
+CREATE(c:Constituency{name:'Roscommon-Galway'});
+CREATE(c:Constituency{name:'Cork South-West'});
+CREATE(c:Constituency{name:'Limerick County'});
+CREATE(c:Constituency{name:'Cork South-West'});
+CREATE(c:Constituency{name:'Cavan-Monaghan'});
+CREATE(c:Constituency{name:'Laois'});
+CREATE(c:Constituency{name:'Carlow-Kilkenny'});
+CREATE(c:Constituency{name:'Dublin Rathdown'});
+CREATE(c:Constituency{name:'Meath East'});
+CREATE(c:Constituency{name:'Donegal'});
+CREATE(c:Constituency{name:'Dublin Central'});
+CREATE(c:Constituency{name:'Galway East'});
+CREATE(c:Constituency{name:'Kildare South'});
+
+
+
+

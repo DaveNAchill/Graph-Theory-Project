@@ -1,0 +1,14 @@
+CREATE(p:Party{name:'Sinn Fein'});
+CREATE(p:Party{name:'Fianna Fail'});
+CREATE(p:Party{name:'Fine Gael'});
+CREATE(p:Party{name:'People Before Profit Alliance'});
+CREATE(p:Party{name:'Catholic Democrats'});
+CREATE(p:Party{name:'Green Party'});
+CREATE(p:Party{name:'Renua'});
+CREATE(p:Party{name:'Direct Democracy Ireland'});
+CREATE(p:Party{name:'Independents 4 Change'});
+CREATE(p:Party{name:'Social Democrats'});
+CREATE(p:Party{name:'The Workers Party'});
+CREATE(p:Party{name:'Labour Party'});
+
+
