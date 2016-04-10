@@ -28,32 +28,30 @@ return constituency,candidate;
 Summarise your three queries here.
 Then explain them one by one in the following sections.
 
-#### Query one title
-This query retreives the Bacon number of an actor...
-```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+#### Shortest Path
+This shortest between two candidates
+
+```
+MATCH (n:Candidate { name:"Gerry Adams" }),(n:Candidate { name:"Enda Kenny" }),
+  p = shortestPath((n)-[*..15]-(n))
+RETURN p
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
-```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+#### Match Candidates in the same Party
+
+```
+MATCH (n:Candidate), (p:Party)
+WHERE n.party = "Fine Geal" AND p.name = "Fine Geal"
+RETURN n,p;
+```
+#### Match Candidates in the same Constituency
+
+```
+MATCH (n:Candidate), (c:Constituency)
+WHERE n.constituency = "Mayo" AND c.constituency = "Mayo"
+RETURN n,c;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
-```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
-```
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
